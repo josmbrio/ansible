@@ -1,0 +1,13 @@
+---
+- name: Configure nginx webserver
+  hosts: webserver
+  tasks:
+  - name: Install nginx
+    apt: 
+      name: nginx=1.22.0-1ubuntu1
+      state: present
+  - name: Start nginx server
+    service:
+      name: nginx
+      state: started
+  
