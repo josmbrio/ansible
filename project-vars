@@ -2,3 +2,4 @@ location: /home/josmbrio/ansible-nodejs-app/simple-nodejs/
 version: 1.0.0 
 user_name: josmbrio
 user_home_dir: /home/{{user_name}}
+docker_password: Ogerrob08
