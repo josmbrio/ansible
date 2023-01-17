@@ -1,2 +1,3 @@
 *.tf linguist-detectable=false
 *.tfvars linguist-detectable=false
+*.yaml linguist-detectable=true
