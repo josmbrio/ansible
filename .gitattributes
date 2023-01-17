@@ -1,2 +1,2 @@
-*.tf linguistic-detectable=false
-*.tfvars linguistic-detectable=false
+*.tf linguist-detectable=false
+*.tfvars linguist-detectable=false
